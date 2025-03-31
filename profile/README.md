@@ -11,11 +11,11 @@ There are a few ways to add code to the Heb Lab Organization page.
 
 2. Fork a repository from someone's personal page -- you can not fork a repo from your own account into an organization you are apart of.
 
-3. Below is a method I like for adding code to both my personal account page AND the organization page
+3. Below is a method I like for adding code to both my personal account page AND the organization page:
 
-  1. Create a new repository in the organization's GitHub. You can make it the same name as your personal repository
+  - First, create a new repository in the organization's GitHub. You can make it the same name as your personal repository
   
-  2. In your local repository (R project on your computer), add the organization's repo as a new remote by running the following in your terminal:
+  - Then, in your local repository (R project on your computer), add the organization's repo as a new remote by running the following in your terminal:
 
 ```r
 git remote add org_repo https://github.com/org-name/repo-name.git
@@ -37,4 +37,4 @@ My flow is to push to my personal account using the intergrated GIT tab in R stu
 
 
 
-<small>make changes to this page in the .github/profile/README.md file</small>
+<sub>make changes to this page in the .github/profile/README.md file</sub>
